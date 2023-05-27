@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+img {
+  width: 200px; }
+
+.flecha {
+  width: 100px;
+  color: grey; }
+
+.navscroll {
+  background-color: green;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0; }
+
+.gatito {
+  margin: 30px 40px;
+  height: 30px; }
