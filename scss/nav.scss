@@ -1,0 +1,21 @@
+.navscroll {
+    background-color: #87BBA2;
+    opacity: 1;
+    background: radial-gradient(circle, transparent 20%, #87BBA2 20%, #87BBA2 80%, transparent 80%, transparent), radial-gradient(circle, transparent 20%, #87BBA2 20%, #87BBA2 80%, transparent 80%, transparent) 35px 35px, linear-gradient(#182C3A 2.8000000000000003px, transparent 2.8000000000000003px) 0 -1.4000000000000001px, linear-gradient(90deg, #182C3A 2.8000000000000003px, #87BBA2 2.8000000000000003px) -1.4000000000000001px 0;
+    background-size: 70px 70px, 70px 70px, 35px 35px, 35px 35px;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    border-style: solid;
+    border-width: 2px 0px;
+    border-color:#182C3A ;
+    box-shadow: 0px 0px 40px 25px #182C3A;
+    .logoimg img{
+            width: 100px;
+            margin: 5px 20px;
+        }
+}

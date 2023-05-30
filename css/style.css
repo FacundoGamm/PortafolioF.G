@@ -16,6 +16,10 @@
   font-family: "hopper";
   src: url(../recursos/fuentes/HulbertHopperDisplay.ttf); }
 
+@font-face {
+  font-family: "simply";
+  src: url(../recursos/fuentes/SimplySerif-Book.ttf); }
+
 .fondoLogo {
   border-style: double;
   border-width: 13px;
@@ -68,7 +72,7 @@
       color: #FED766; }
     .presentación .presentacion-parrafos p {
       font-size: xx-large;
-      font-family: hopper;
+      font-family: simply;
       margin: 20px 50px;
       filter: drop-shadow(-5px 4px 10px black); }
   .presentación .presentacion-imgs {
@@ -105,12 +109,11 @@
   .desliza .msm {
     font-size: x-large;
     margin-top: 60px; }
-
-.flecha {
-  width: 100px;
-  color: #FED766;
-  border-width: 1px;
-  filter: drop-shadow(8px 8px 8px #292929); }
+  .desliza .flecha {
+    width: 100px;
+    color: #FED766;
+    border-width: 1px;
+    filter: drop-shadow(8px 8px 8px #292929); }
 
 @keyframes move {
   100% {
@@ -447,15 +450,22 @@
   transform-origin: -3vw 11vh;
   box-shadow: 54vmin 0 6.86709998223253vmin currentColor; }
 
-.gatito {
-  margin: 30px 40px;
-  height: 30px; }
-
 .navscroll {
-  background-color: green;
+  background-color: #87BBA2;
+  opacity: 1;
+  background: radial-gradient(circle, transparent 20%, #87BBA2 20%, #87BBA2 80%, transparent 80%, transparent), radial-gradient(circle, transparent 20%, #87BBA2 20%, #87BBA2 80%, transparent 80%, transparent) 35px 35px, linear-gradient(#182C3A 2.8px, transparent 2.8px) 0 -1.4px, linear-gradient(90deg, #182C3A 2.8px, #87BBA2 2.8px) -1.4px 0;
+  background-size: 70px 70px, 70px 70px, 35px 35px, 35px 35px;
+  background-attachment: fixed;
   display: flex;
   align-items: center;
   align-content: center;
   justify-content: space-between;
   position: sticky;
-  top: 0; }
+  top: 0;
+  border-style: solid;
+  border-width: 2px 0px;
+  border-color: #182C3A;
+  box-shadow: 0px 0px 40px 25px #182C3A; }
+  .navscroll .logoimg img {
+    width: 100px;
+    margin: 5px 20px; }

@@ -56,7 +56,7 @@
         }
         p{
             font-size: xx-large;
-            font-family: hopper;
+            font-family: simply;
             margin: 20px 50px;
             filter: drop-shadow(-5px 4px 10px black);
         }
@@ -103,13 +103,13 @@
         font-size:x-large;
         margin-top: 60px;
     }
+    .flecha {
+        width: 100px;
+        color: #FED766;
+        border-width: 1px;
+        filter: drop-shadow(8px 8px 8px #292929);
+    }
 }
 
-.flecha {
-    width: 100px;
-    color: #FED766;
-    border-width: 1px;
-    filter: drop-shadow(8px 8px 8px #292929);
 
-}
 
