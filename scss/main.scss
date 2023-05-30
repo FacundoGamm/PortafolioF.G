@@ -1,16 +1,13 @@
 @import './fuentes.scss';
 @import './header.scss';
+@import './fondoanimado.scss';
 
-img{
-    width: 200px;
+.gatito {
+    margin: 30px 40px;
+    height: 30px;
 }
 
-.flecha{
-    width: 100px;
-    color: grey;
-}
-
-.navscroll{
+.navscroll {
     background-color: green;
     display: flex;
     align-items: center;
@@ -18,9 +15,4 @@ img{
     justify-content: space-between;
     position: sticky;
     top: 0;
-}
-
-.gatito{
-    margin: 30px 40px;
-    height: 30px;
 }

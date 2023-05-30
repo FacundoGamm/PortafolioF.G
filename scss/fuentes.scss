@@ -1,6 +1,20 @@
-//pasar a "reseteo y fuentes
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "F.G";
+    src: url(../recursos/fuentes/Blacklisted.ttf);
+}
+
+@font-face {
+    font-family: "pulp" ;
+    src: url(../recursos/fuentes/3604-pulp-science-web.woff);
+}
+
+@font-face{
+    font-family: "hopper" ;
+    src: url(../recursos/fuentes/HulbertHopperDisplay.ttf);
 }

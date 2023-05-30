@@ -1,0 +1,115 @@
+.fondoLogo{
+    border-style: double;
+    border-width: 13px;
+    border-color: #68686859;
+    display: flex;
+    margin: auto;
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: inset 1px 1px 15px;
+        .logo{
+            display: flex;
+            height: 166px;
+            width: 166px;
+            border-radius: 100%;
+            font-family: "F.G";
+            font-size: 65px;
+            align-items: center;
+            justify-content: center;
+            color: #3b5364;
+            p .flechaLogo{
+                width: 50px;
+                margin: -11px;
+                margin-bottom: 20px;
+                margin-left: -9px;
+            }
+            p{
+                margin: auto;
+                filter: drop-shadow(8px -5px 6px);
+            }
+        }
+}
+
+.presentación{
+    display: flex;
+    height: 80vh;
+    .presentacion-parrafos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        height: 50vh;
+        width: 50vw;
+        margin: 100px 50px;
+        h1{
+            font-size:xxx-large;
+            font-family: pulp;
+            margin: 35px 20px;
+        }
+        h1::first-letter{
+            color: #FED766;
+        }
+        p{
+            font-size: xx-large;
+            font-family: hopper;
+            margin: 20px 50px;
+            filter: drop-shadow(-5px 4px 10px black);
+        }
+    }
+    .presentacion-imgs{
+        display: flex;
+        width: 50vw;
+        margin: auto;
+        flex-direction: column;
+        align-items: center;
+        .corazon{
+            width: 58px;
+            z-index: 1;
+            transform: translateY(119px);
+            filter: drop-shadow(3px 3px 6px black);
+        }
+        .icons{
+            width: 583px;
+            transform: translateY(-112px);
+            filter: drop-shadow(3px 6px 8px black);
+        }
+        .personaje{
+            width: 449px;
+            transform: translateY(-504px);
+        }
+    }
+}
+
+.desliza{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+    h2{
+        font-family: hopper;
+        text-align: center;
+        margin: 20px 40px;
+    }
+    p{
+        font-family: "hopper";
+        font-size: medium;
+    }
+    .msm{
+        font-size:x-large;
+        margin-top: 60px;
+    }
+}
+
+.flecha {
+    width: 100px;
+    color: #FED766;
+    border-width: 1px;
+    filter: drop-shadow(8px 8px 8px #292929);
+
+}
+
