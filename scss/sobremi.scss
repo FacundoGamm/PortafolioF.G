@@ -64,7 +64,7 @@
                     border-style: solid;
                     border-width: 2px;
                     border-color: #FED766;
-                    margin: 5px 20px;
+                    margin: 5px 27px;
                     border-radius: 15px;
                     height: 27px;
                     padding: 0px 14px;
@@ -75,6 +75,13 @@
                     color:#FED766;
                     text-decoration: none;
                     font-size: 18px;
+                }
+                .liEsp{
+                    background-color: #FED766;
+                    border-color: #292929;
+                    a{
+                        color: #292929;
+                    }
                 }
             }
 
@@ -115,6 +122,7 @@
                     box-shadow: 5px 4px 6px 4px #00000069;
                     color: #87BBA2;
                     font-size: 18px;
+                    font-family: "simply";
                 }
             }
         }

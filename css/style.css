@@ -37,7 +37,11 @@
   margin-bottom: 50px;
   align-items: center;
   justify-content: center;
-  box-shadow: inset 1px 1px 15px; }
+  box-shadow: inset 1px 1px 15px;
+  animation-name: float;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(0.4, 0, 1, 1); }
   .fondoLogo .logo {
     display: flex;
     height: 166px;
@@ -71,7 +75,18 @@
     .presentación .presentacion-parrafos h1 {
       font-size: xxx-large;
       font-family: pulp;
-      margin: 35px 20px; }
+      margin: 35px 20px;
+      backdrop-filter: blur(40px);
+      border-radius: 15px;
+      padding: 5px;
+      border-style: solid;
+      border-width: 2px;
+      border-color: #93939347;
+      box-shadow: -4px 8px 8px #00000080;
+      transition: .4s; }
+    .presentación .presentacion-parrafos h1:hover {
+      transform: scale(1.03);
+      filter: saturate(1.6); }
     .presentación .presentacion-parrafos h1::first-letter {
       color: #FED766; }
     .presentación .presentacion-parrafos p {
@@ -89,14 +104,35 @@
       width: 58px;
       z-index: 1;
       transform: translateY(119px);
-      filter: drop-shadow(3px 3px 6px black); }
+      filter: drop-shadow(3px 3px 6px black);
+      animation-name: float;
+      animation-duration: 7s;
+      animation-iteration-count: infinite;
+      animation-timing-function: cubic-bezier(0, -0.99, 1, 1.9); }
+    .presentación .presentacion-imgs .corazon:hover {
+      transform: scale(1.3);
+      filter: drop-shadow(8px 7px 20px white);
+      filter: saturate(1.4); }
     .presentación .presentacion-imgs .icons {
       width: 583px;
       transform: translateY(-112px);
-      filter: drop-shadow(3px 6px 8px black); }
+      filter: drop-shadow(3px 6px 8px black);
+      animation-name: float;
+      animation-duration: 6s;
+      animation-iteration-count: infinite;
+      animation-timing-function: cubic-bezier(0.72, -0.73, 0.28, 1.66); }
     .presentación .presentacion-imgs .personaje {
-      width: 449px;
-      transform: translateY(-504px); }
+      position: absolute;
+      width: 480px;
+      transform: translateY(-550px);
+      animation-name: float;
+      animation-duration: 7s;
+      animation-iteration-count: infinite;
+      animation-timing-function: cubic-bezier(0.68, 0.34, 0.11, 0.76);
+      filter: drop-shadow(8px 7px 20px rgba(0, 0, 0, 0.503)); }
+    .presentación .presentacion-imgs .personaje:hover {
+      filter: drop-shadow(8px 7px 20px rgba(255, 255, 255, 0.519));
+      filter: saturate(1.4); }
 
 .desliza {
   display: flex;
@@ -106,10 +142,16 @@
   .desliza h2 {
     font-family: hopper;
     text-align: center;
-    margin: 20px 40px; }
+    margin: 20px 40px;
+    filter: drop-shadow(0px 8px 10px black); }
   .desliza p {
     font-family: "hopper";
-    font-size: medium; }
+    font-size: medium;
+    backdrop-filter: blur(50px);
+    border-style: solid;
+    border-width: 2px;
+    border-color: #ffffff54;
+    border-radius: 15px; }
   .desliza .msm {
     font-size: x-large;
     margin-top: 60px; }
@@ -117,7 +159,19 @@
     width: 100px;
     color: #FED766;
     border-width: 1px;
-    filter: drop-shadow(8px 8px 8px #292929); }
+    filter: drop-shadow(8px 8px 8px #292929);
+    animation-name: float;
+    animation-duration: 2.3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0.68, -0.01, 0.24, 1.01); }
+
+@keyframes float {
+  0% {
+    transform: translateY(0px); }
+  50% {
+    transform: translateY(40px); }
+  100% {
+    transform: translateY(0px); } }
 
 @keyframes move {
   100% {
@@ -531,7 +585,7 @@
           border-style: solid;
           border-width: 2px;
           border-color: #FED766;
-          margin: 5px 20px;
+          margin: 5px 27px;
           border-radius: 15px;
           height: 27px;
           padding: 0px 14px;
@@ -541,6 +595,11 @@
           color: #FED766;
           text-decoration: none;
           font-size: 18px; }
+        .rounded-2 .sobreMi .sectionCV .ulLinks .liEsp {
+          background-color: #FED766;
+          border-color: #292929; }
+          .rounded-2 .sobreMi .sectionCV .ulLinks .liEsp a {
+            color: #292929; }
       .rounded-2 .sobreMi .sectionCV .ulGit {
         display: flex;
         color: white;
@@ -570,4 +629,5 @@
           border-radius: 15px;
           box-shadow: 5px 4px 6px 4px #00000069;
           color: #87BBA2;
-          font-size: 18px; }
+          font-size: 18px;
+          font-family: "simply"; }
