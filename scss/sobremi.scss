@@ -1,0 +1,123 @@
+.rounded-2 {
+    padding-top: 30px;
+    margin-top: -18px;
+
+    .h4-1 {
+        margin-bottom: -58px;
+        color: white;
+    }
+
+    .sobreMi {
+        background-image: url(https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80);
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 104vh;
+
+        .pCV {
+            width: 50vw;
+            color: #eafffe;
+            font-size: 27px;
+            font-family: "sunflower";
+            margin-bottom: -50px;
+            border-style: solid;
+            border-width: 2px;
+            border-color: grey;
+            border-radius: 15px;
+            box-shadow: -5px 10px 10px rgba(0, 0, 0, 0.373);
+            filter: drop-shadow(black -3px 4px 6px);
+            backdrop-filter: blur(3px);
+        }
+
+        .sectionCV {
+            display: flex;
+            flex-direction: column;
+            width: 40vw;
+            align-items: center;
+            p{
+                font-family: "pulp";
+                color: #cbcbcbd1;;
+                font-size: large;
+            }
+            .fotoCV {
+                height: 257px;
+                width: 237px;
+                object-fit: cover;
+                border-radius: 235px;
+                margin: 160px 20px 10px;
+                border-style: solid;
+                border-width: 2px;
+                border-color: #FED766;
+                box-shadow: 8px 9px 9px 3px #00000069;
+            }
+
+            .ulLinks {
+                display: flex;
+                color: white;
+                list-style: none;
+
+                li {
+                    background-color: #292929;
+                    border-style: solid;
+                    border-width: 2px;
+                    border-color: #FED766;
+                    margin: 5px 20px;
+                    border-radius: 15px;
+                    height: 27px;
+                    padding: 0px 14px;
+                    font-family: "simply";
+                    box-shadow: 5px 4px 6px 4px #00000069;
+                }
+                li a{
+                    color:#FED766;
+                    text-decoration: none;
+                    font-size: 18px;
+                }
+            }
+
+            .ulGit {
+                display: flex;
+                color: white;
+                list-style-type: none;
+
+                li{
+                    margin: 0px 10px;
+                }
+
+                .github {
+                    background-color: #292929;
+                    height: 36px;
+                    border-radius: 15px;
+                    font-family: "simply";
+                    border-style: solid;
+                    border-width: 2px;
+                    padding: 0px 5px;
+                    border-color: #FED766;
+                    box-shadow: 5px 4px 6px 4px #00000069;
+                    color: #FED766;
+                    font-size: 18px;
+                }
+
+                .logoGit {
+                    width: 35px;
+                    color: purple;
+                }
+
+                .botonPAS {
+                    background-color: #292929;
+                    border-style: solid;
+                    border-width: 2px;
+                    border-color: #FED766;
+                    border-radius: 15px;
+                    box-shadow: 5px 4px 6px 4px #00000069;
+                    color: #87BBA2;
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+
+}
