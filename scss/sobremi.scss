@@ -4,7 +4,13 @@
 
     .h4-1 {
         margin-bottom: -58px;
-        color: white;
+        color: rgba(255, 255, 255, 0.64);
+        text-align: center;
+        font-family: "Pulp";
+        animation-name: h4-1;
+        animation-iteration-count: infinite;
+        animation-timing-function: cubic-bezier(0.29, -0.82, 1, 2.43);
+        animation-duration: 2.5s;
     }
 
     .sobreMi {
@@ -16,20 +22,30 @@
         justify-content: space-evenly;
         align-items: center;
         height: 104vh;
+        border-bottom-style: solid;
+        border-bottom-width: 3px;
+        border-color: black;
+    }
 
         .pCV {
-            width: 50vw;
+            width: 45vw;
             color: #eafffe;
             font-size: 27px;
             font-family: "sunflower";
             margin-bottom: -50px;
             border-style: solid;
             border-width: 2px;
-            border-color: grey;
+            border-color: rgba(128, 128, 128, 0.718);
             border-radius: 15px;
             box-shadow: -5px 10px 10px rgba(0, 0, 0, 0.373);
             filter: drop-shadow(black -3px 4px 6px);
             backdrop-filter: blur(3px);
+            transition: .3s;
+        }
+        .pCV:hover{
+            transform: scale(1.02);
+            filter: contrast(1.12);
+            border-color:rgba(231, 224, 224, 0.718) ;
         }
 
         .sectionCV {
@@ -41,6 +57,11 @@
                 font-family: "pulp";
                 color: #cbcbcbd1;;
                 font-size: large;
+                animation-name: hola;
+                animation-iteration-count: infinite;
+                animation-duration: 6s;
+                animation-timing-function: cubic-bezier(0.25, 0.23, 0.57, 0.75);
+            }
             }
             .fotoCV {
                 height: 257px;
@@ -52,6 +73,12 @@
                 border-width: 2px;
                 border-color: #FED766;
                 box-shadow: 8px 9px 9px 3px #00000069;
+                transition: .3s;
+            }
+            .fotoCV:hover{
+                transform: scale(1.03);
+                box-shadow: 8px 9px 9px 3px #fffefe38;
+                filter: saturate(1.2);
             }
 
             .ulLinks {
@@ -70,6 +97,14 @@
                     padding: 0px 14px;
                     font-family: "simply";
                     box-shadow: 5px 4px 6px 4px #00000069;
+                    transition: .2s;
+                }
+                li:hover{
+                    background-color: #87BBA2;
+                    border-color: #292929;
+                    color: #292929;
+                    transform: scale(1.03);
+                    box-shadow: inset 1px 1px 6px rgba(0, 0, 0, 0.618);
                 }
                 li a{
                     color:#FED766;
@@ -79,9 +114,18 @@
                 .liEsp{
                     background-color: #FED766;
                     border-color: #292929;
+                    transition: .2s;
                     a{
                         color: #292929;
                     }
+                }
+                .liEsp:hover{
+                    background-color: #292929;
+                    border-color: #FED766;
+                    transform: scale(1.1);
+                }
+                .liEsp a:hover{
+                    color: #FED766;
                 }
             }
 
@@ -106,6 +150,14 @@
                     box-shadow: 5px 4px 6px 4px #00000069;
                     color: #FED766;
                     font-size: 18px;
+                    transition: .2s;
+                }
+                .github:hover{
+                    background-color: #87BBA2;
+                    border-color: #292929;
+                    color: #292929;
+                    transform: scale(1.03);
+                    box-shadow: inset 1px 1px 6px rgba(0, 0, 0, 0.618);
                 }
 
                 .logoGit {
@@ -124,8 +176,41 @@
                     font-size: 18px;
                     font-family: "simply";
                 }
+                .botonPAS:hover{
+                    transform: scale(1.1);
+                    box-shadow: inset 1px 1px 6px rgba(0, 0, 0, 0.618);
+                    border-color: #87BBA2;
+                }
+                .botonPAS:active{
+                    background-color: #FED766;
+                    box-shadow: inset 1px 1px 6px rgba(0, 0, 0, 0.618);
+                }
+                }
             }
-        }
-    }
 
+@keyframes h4-1{
+    0%{
+    color: rgba(255, 255, 255, 0.64);
+    }
+    50%{
+        color: rgb(255, 255, 255);
+    }
+    100%{
+        color: rgba(255, 255, 255, 0.64);
+    }
+}
+
+@keyframes hola{
+    0%{
+        color:#292929;
+    }
+    33%{
+        color: #87BBA2;
+    }
+    66%{
+        color: #FED766;
+    }
+    100%{
+        color: #182C3A;
+    }
 }
