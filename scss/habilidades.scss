@@ -1,0 +1,255 @@
+.h4-2 {
+  margin-bottom: -58px;
+  color: rgba(255, 255, 255, 0.64);
+  text-align: center;
+  font-family: "Pulp";
+  animation-name: h4-1;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(0.29, -0.82, 1, 2.43);
+  animation-duration: 2.5s;
+  filter: contrast(0.8);
+}
+
+.habilidades {
+  display: flex;
+  background-image: url(https://images.unsplash.com/photo-1615869442320-fd02a129c77c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1334&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  align-items: center;
+  border-top-width: 6px;
+  border-top-style: groove;
+  border-top-color: #FED766;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-bottom-color: #292929;
+  border-bottom-style: groove;
+  border-bottom-width: 6px;
+
+  .gridHab {
+    height: 70vh;
+    margin: 40px 100px;
+
+    .col {
+      text-align: center;
+      margin: 60px;
+      background-color: #ffe085;
+      border-radius: 64px;
+      border-style: solid;
+      border-width: 6px;
+      border-color: #292929;
+      box-shadow: 1px 7px 9px 9px #93f8ff78;
+
+      .imgHab {
+        height: 130px;
+        object-fit: cover;
+        margin: auto;
+        filter: drop-shadow(1px 0px 7px rgba(0, 0, 0, 0.679));
+        position: relative;
+      }
+    }
+
+    .logojava{
+      text-align: center;
+      margin: 60px;
+      background-color: #797979;
+      border-radius: 64px;
+      border-style: solid;
+      border-width: 6px;
+      border-color: #292929;
+    }
+  }
+}
+
+//overlays//
+
+.logohtml {
+  position: relative;
+  display: inline-block;
+}
+
+.logohtml::before {
+  content: "HTML";
+  font-size: 75px;
+  font-family: "F.G";
+  z-index: 1;
+  color: rgba(242, 242, 242, 0.836);
+  place-items: center;
+  position: absolute;
+  border-radius: 58px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(20, 20, 20, 0.695);
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.logohtml:hover::before {
+  opacity: 1;
+}
+
+.logocss {
+  position: relative;
+  display: inline-block;
+}
+
+.logocss::before {
+  content: "CSS";
+  font-size: 70px;
+  font-family: "F.G";
+  z-index: 1;
+  color: rgba(242, 242, 242, 0.836);
+  place-items: center;
+  position: absolute;
+  border-radius: 58px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(20, 20, 20, 0.8);
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.logocss:hover::before {
+  opacity: 1;
+}
+
+.logogit {
+  position: relative;
+  display: inline-block;
+}
+
+.logogit::before {
+  content: "Git Bash";
+  font-size: xxx-large;
+  font-family: "F.G";
+  z-index: 1;
+  color: rgba(242, 242, 242, 0.836);
+  place-items: center;
+  position: absolute;
+  border-radius: 58px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(20, 20, 20, 0.695);
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.logogit:hover::before {
+  opacity: 1;
+}
+
+.logobootstrap {
+  position: relative;
+  display: inline-block;
+}
+
+.logobootstrap::before {
+  content: "Bootstrap";
+  font-size: 45px;
+  font-family: "F.G";
+  z-index: 1;
+  color: rgba(242, 242, 242, 0.836);
+  place-items: center;
+  position: absolute;
+  border-radius: 58px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(20, 20, 20, 0.695);
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.logobootstrap:hover::before {
+  opacity: 1;
+}
+
+.logogithub {
+  position: relative;
+  display: inline-block;
+}
+
+.logogithub::before {
+  content: "Github";
+  font-size: 80px;
+  font-family: "F.G";
+  z-index: 1;
+  color: rgba(242, 242, 242, 0.836);
+  place-items: center;
+  position: absolute;
+  border-radius: 58px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(20, 20, 20, 0.695);
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.logogithub:hover::before {
+  opacity: 1;
+}
+
+.logosass {
+  position: relative;
+  display: inline-block;
+}
+
+.logosass::before {
+  content: "Sass";
+  font-size: 80px;
+  font-family: "F.G";
+  z-index: 1;
+  color: rgba(242, 242, 242, 0.836);
+  place-items: center;
+  position: absolute;
+  border-radius: 58px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(20, 20, 20, 0.695);
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.logosass:hover::before {
+  opacity: 1;
+}
+
+.logojava {
+  position: relative;
+  display: inline-block;
+}
+
+.logojava::before {
+  content: "Actualmente en proceso";
+  font-size: 36px;
+  font-family: "hopper";
+  z-index: 1;
+  color: rgba(0, 0, 0, 0.836);
+  place-items: center;
+  position: absolute;
+  border-radius: 58px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(254, 93, 93, 0.49);
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.logojava:hover::before {
+  opacity: 1;
+}
