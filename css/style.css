@@ -4,6 +4,9 @@
   padding: 0;
   box-sizing: border-box; }
 
+html {
+  scroll-behavior: smooth; }
+
 @font-face {
   font-family: "F.G";
   src: url(../recursos/fuentes/Blacklisted.ttf); }
@@ -728,7 +731,13 @@
   border-bottom-left-radius: 30px;
   border-bottom-color: #292929;
   border-bottom-style: groove;
-  border-bottom-width: 6px; }
+  border-bottom-width: 6px;
+  border-left-style: solid;
+  border-left-width: 2px;
+  border-left-color: #fed766;
+  border-right-width: 3px;
+  border-right-color: #fed766;
+  border-right-style: solid; }
   .habilidades .gridHab {
     height: 70vh;
     margin: 40px 100px; }
@@ -740,7 +749,7 @@
       border-style: solid;
       border-width: 6px;
       border-color: #292929;
-      box-shadow: 1px 7px 9px 9px #93f8ff78; }
+      box-shadow: 1px 7px 10px 1px #93f8ff78; }
       .habilidades .gridHab .col .imgHab {
         height: 130px;
         object-fit: cover;
@@ -763,9 +772,10 @@
 .logohtml::before {
   content: "HTML";
   font-size: 75px;
+  padding-top: 14px;
   font-family: "F.G";
   z-index: 1;
-  color: rgba(242, 242, 242, 0.836);
+  color: #d84924;
   place-items: center;
   position: absolute;
   border-radius: 58px;
@@ -786,10 +796,11 @@
 
 .logocss::before {
   content: "CSS";
+  padding-top: 14px;
   font-size: 70px;
   font-family: "F.G";
   z-index: 1;
-  color: rgba(242, 242, 242, 0.836);
+  color: #2449D8;
   place-items: center;
   position: absolute;
   border-radius: 58px;
@@ -811,6 +822,7 @@
 .logogit::before {
   content: "Git Bash";
   font-size: xxx-large;
+  padding-top: 30px;
   font-family: "F.G";
   z-index: 1;
   color: rgba(242, 242, 242, 0.836);
@@ -834,10 +846,11 @@
 
 .logobootstrap::before {
   content: "Bootstrap";
-  font-size: 45px;
+  font-size: 40px;
+  padding-top: 30px;
   font-family: "F.G";
   z-index: 1;
-  color: rgba(242, 242, 242, 0.836);
+  color: #7D11F8;
   place-items: center;
   position: absolute;
   border-radius: 58px;
@@ -860,8 +873,9 @@
   content: "Github";
   font-size: 80px;
   font-family: "F.G";
+  padding-top: 14px;
   z-index: 1;
-  color: rgba(242, 242, 242, 0.836);
+  color: #8100DE;
   place-items: center;
   position: absolute;
   border-radius: 58px;
@@ -883,9 +897,10 @@
 .logosass::before {
   content: "Sass";
   font-size: 80px;
+  padding-top: 14px;
   font-family: "F.G";
   z-index: 1;
-  color: rgba(242, 242, 242, 0.836);
+  color: #C36192;
   place-items: center;
   position: absolute;
   border-radius: 58px;
@@ -905,7 +920,7 @@
   display: inline-block; }
 
 .logojava::before {
-  content: "Actualmente en proceso";
+  content: "Actualmente en proceso :D";
   font-size: 36px;
   font-family: "hopper";
   z-index: 1;
@@ -923,3 +938,67 @@
 
 .logojava:hover::before {
   opacity: 1; }
+
+.contactoh4 {
+  display: none; }
+
+.divContacto {
+  width: 100%;
+  height: 60vh;
+  padding: 0;
+  background-image: linear-gradient(0deg, #000000d3, #D24D57 97%);
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative; }
+  .divContacto .contenidoFooter {
+    display: flex;
+    flex-direction: column;
+    height: 20vh;
+    margin-top: -150px; }
+    .divContacto .contenidoFooter h4 {
+      font-family: 'pulp';
+      font-size: x-large;
+      margin: 10px 10px 55px;
+      background-color: #6e6e6e9d;
+      border-radius: 15px;
+      padding: 5px;
+      border-color: #ffe000;
+      border-width: 2px;
+      border-style: outset; }
+  .divContacto .botonesFooter {
+    display: flex;
+    flex-wrap: wrap;
+    height: 25vh;
+    align-items: center;
+    justify-content: space-around; }
+    .divContacto .botonesFooter img {
+      width: 100px; }
+  .divContacto .volverInicio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 15vh; }
+
+/* -- SVG CSS -- */
+.svg-separator {
+  display: block;
+  background: 0 0;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 9;
+  -webkit-transform: translateY(-100%) translateY(2px);
+  transform: translateY(-100%) translateY(2px);
+  width: 100%; }
+
+.svg-separator.bottom {
+  top: auto;
+  bottom: 0; }
+
+.sep1 {
+  transform: translateY(-100%) translateY(2px) scale(1, 1);
+  transform-origin: top; }
