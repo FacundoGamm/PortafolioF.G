@@ -512,7 +512,7 @@ html {
   box-shadow: 54vmin 0 6.86709998223253vmin currentColor; }
 
 .navscroll {
-  z-index: 1;
+  z-index: 2;
   background-color: #87BBA2;
   opacity: 1;
   background: radial-gradient(circle, transparent 20%, #87BBA2 20%, #87BBA2 80%, transparent 80%, transparent), radial-gradient(circle, transparent 20%, #87BBA2 20%, #87BBA2 80%, transparent 80%, transparent) 35px 35px, linear-gradient(#182C3A 2.8px, transparent 2.8px) 0 -1.4px, linear-gradient(90deg, #182C3A 2.8px, #87BBA2 2.8px) -1.4px 0;
@@ -701,6 +701,10 @@ html {
       background-color: #FED766;
       box-shadow: inset 1px 1px 6px rgba(0, 0, 0, 0.618); }
 
+.card-body {
+  background-color: #292929;
+  font-family: "simply"; }
+
 @keyframes h4-1 {
   0% {
     color: rgba(255, 255, 255, 0.64); }
@@ -800,7 +804,8 @@ html {
   height: 100%;
   background-color: rgba(20, 20, 20, 0.695);
   opacity: 0;
-  transition: opacity 0.3s ease-in-out; }
+  transition: opacity 0.3s ease-in-out;
+  box-shadow: 1px 7px 10px 1px #d84924; }
 
 .logohtml:hover::before {
   opacity: 1; }
@@ -825,7 +830,8 @@ html {
   height: 100%;
   background-color: rgba(20, 20, 20, 0.8);
   opacity: 0;
-  transition: opacity 0.3s ease-in-out; }
+  transition: opacity 0.3s ease-in-out;
+  box-shadow: 1px 7px 10px 1px #2449D8; }
 
 .logocss:hover::before {
   opacity: 1; }
@@ -850,7 +856,8 @@ html {
   height: 100%;
   background-color: rgba(20, 20, 20, 0.695);
   opacity: 0;
-  transition: opacity 0.3s ease-in-out; }
+  transition: opacity 0.3s ease-in-out;
+  box-shadow: 1px 7px 10px 1px rgba(242, 242, 242, 0.836); }
 
 .logogit:hover::before {
   opacity: 1; }
@@ -875,7 +882,8 @@ html {
   height: 100%;
   background-color: rgba(20, 20, 20, 0.695);
   opacity: 0;
-  transition: opacity 0.3s ease-in-out; }
+  transition: opacity 0.3s ease-in-out;
+  box-shadow: 1px 7px 10px 1px #7D11F8; }
 
 .logobootstrap:hover::before {
   opacity: 1; }
@@ -900,7 +908,8 @@ html {
   height: 100%;
   background-color: rgba(20, 20, 20, 0.695);
   opacity: 0;
-  transition: opacity 0.3s ease-in-out; }
+  transition: opacity 0.3s ease-in-out;
+  box-shadow: 1px 7px 10px 1px #8100DE; }
 
 .logogithub:hover::before {
   opacity: 1; }
@@ -925,7 +934,8 @@ html {
   height: 100%;
   background-color: rgba(20, 20, 20, 0.695);
   opacity: 0;
-  transition: opacity 0.3s ease-in-out; }
+  transition: opacity 0.3s ease-in-out;
+  box-shadow: 1px 7px 10px 1px #C36192; }
 
 .logosass:hover::before {
   opacity: 1; }
@@ -938,7 +948,7 @@ html {
   content: "Actualmente en proceso :D";
   font-size: 36px;
   padding-top: 11px;
-  font-family: "hopper";
+  font-family: "simply";
   z-index: 1;
   color: rgba(0, 0, 0, 0.836);
   place-items: center;

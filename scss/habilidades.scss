@@ -93,6 +93,7 @@
   background-color: rgba(20, 20, 20, 0.695);
   opacity: 0;
   transition: opacity 0.3s ease-in-out;
+  box-shadow: 1px 7px 10px 1px rgb(216,73,36);
 }
 
 .logohtml:hover::before {
@@ -121,6 +122,7 @@
   background-color: rgba(20, 20, 20, 0.8);
   opacity: 0;
   transition: opacity 0.3s ease-in-out;
+  box-shadow:1px 7px 10px 1px #2449D8;
 }
 
 .logocss:hover::before {
@@ -149,6 +151,7 @@
   background-color: rgba(20, 20, 20, 0.695);
   opacity: 0;
   transition: opacity 0.3s ease-in-out;
+  box-shadow:1px 7px 10px 1px rgba(242, 242, 242, 0.836);
 }
 
 .logogit:hover::before {
@@ -177,6 +180,7 @@
   background-color: rgba(20, 20, 20, 0.695);
   opacity: 0;
   transition: opacity 0.3s ease-in-out;
+  box-shadow:1px 7px 10px 1px #7D11F8;
 }
 
 .logobootstrap:hover::before {
@@ -205,6 +209,7 @@
   background-color: rgba(20, 20, 20, 0.695);
   opacity: 0;
   transition: opacity 0.3s ease-in-out;
+  box-shadow:1px 7px 10px 1px #8100DE;
 }
 
 .logogithub:hover::before {
@@ -233,6 +238,7 @@
   background-color: rgba(20, 20, 20, 0.695);
   opacity: 0;
   transition: opacity 0.3s ease-in-out;
+  box-shadow:1px 7px 10px 1px #C36192;
 }
 
 .logosass:hover::before {
@@ -248,7 +254,7 @@
   content: "Actualmente en proceso :D";
   font-size: 36px;
   padding-top:11px;
-  font-family: "hopper";
+  font-family: "simply";
   z-index: 1;
   color: rgba(0, 0, 0, 0.836);
   place-items: center;
