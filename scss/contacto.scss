@@ -4,10 +4,8 @@
 
 .divContacto {
     width: 100%;
-    height: 60vh;
-    padding: 0;
+    height: 50vh;
     background-image: linear-gradient(0deg, #000000d3, #D24D57 97%);
-    margin: 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -23,7 +21,7 @@
         h4 {
             font-family: 'pulp';
             font-size: x-large;
-            margin: 10px 10px 55px;
+            margin: 20px 10px 55px;
             background-color: #6e6e6e9d;
             border-radius: 15px;
             padding: 5px;
@@ -36,12 +34,38 @@
     .botonesFooter {
         display: flex;
         flex-wrap: wrap;
-        height: 25vh;
+        max-width: 458px;
         align-items: center;
-        justify-content: space-around;
-
+        justify-content: flex-end;
+        p{
+            font-family: "sunflower";
+            padding: 5px;
+            margin: 5px 20px;
+            background-color: #29292969;
+            border-radius: 10px;
+            font-size: larger;
+            border-style: solid;
+            border-width: 2px;
+            border-color: #0f1a21;
+            color: #FED766;
+            box-shadow: 1px 5px 9px 1px black;
+            transition: .3s;
+        }
+        p:hover{
+            transform: scale(1.1);
+            filter: drop-shadow(1px 6px 4px black);
+            box-shadow: 1px 5px 9px 1px black;
+        }
         img {
-            width: 100px;
+            width: 80px;
+            background-color: #7b0080;
+            border-radius: 100%;
+            transition: .3s;
+        }
+        img:hover{
+            transform: scale(1.2);
+            filter: drop-shadow(1px 6px 4px black);
+            box-shadow: 1px 5px 9px 1px black;
         }
     }
 
@@ -49,8 +73,35 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        height: 15vh;
+        background-color: rgba(106, 106, 106, 0.56);
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+        margin: auto;
+        margin-top: 42px;
+        border-width: 3px;
+        border-color: grey;
+        border-style: outset;
+        border-bottom-style: none;
+        transition: .2s;
+        svg{
+            color: #4e0000;
+            margin: 3px;
+            filter: drop-shadow(1px 6px 4px black);
+        }
+        a{
+            font-family: "simply";
+            font-size: medium;
+            color: white;
+            margin: 7px;
+        }
+        a:hover{
+            color: #FED766;
+        }
     }
+}
+
+.volverInicio:hover{
+    transform: scaleY(1.2) translateY(-9px);
 }
 
 /* -- SVG CSS -- */

@@ -19,4 +19,21 @@
             width: 100px;
             margin: 5px 20px;
         }
+    .nav-link{
+        border-radius: var(--bs-nav-pills-border-radius);
+        margin: 0px 5px;
+        background-color: #659b81;
+        font-family: 'sunflower';
+        font-size:large;
+        color: white;
+        transition: .3s;
+    }
+    .nav-link:hover{
+    transform: scale(1.05);
+    background-color: #406550;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #182C3A;
+    color: #000000;
+    }
 }

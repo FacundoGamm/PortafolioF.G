@@ -531,6 +531,21 @@ html {
   .navscroll .logoimg img {
     width: 100px;
     margin: 5px 20px; }
+  .navscroll .nav-link {
+    border-radius: var(--bs-nav-pills-border-radius);
+    margin: 0px 5px;
+    background-color: #659b81;
+    font-family: 'sunflower';
+    font-size: large;
+    color: white;
+    transition: .3s; }
+  .navscroll .nav-link:hover {
+    transform: scale(1.05);
+    background-color: #406550;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #182C3A;
+    color: #000000; }
 
 .rounded-2 {
   padding-top: 30px;
@@ -897,7 +912,7 @@ html {
 .logosass::before {
   content: "Sass";
   font-size: 80px;
-  padding-top: 14px;
+  padding-top: 9px;
   font-family: "F.G";
   z-index: 1;
   color: #C36192;
@@ -922,6 +937,7 @@ html {
 .logojava::before {
   content: "Actualmente en proceso :D";
   font-size: 36px;
+  padding-top: 11px;
   font-family: "hopper";
   z-index: 1;
   color: rgba(0, 0, 0, 0.836);
@@ -944,10 +960,8 @@ html {
 
 .divContacto {
   width: 100%;
-  height: 60vh;
-  padding: 0;
+  height: 50vh;
   background-image: linear-gradient(0deg, #000000d3, #D24D57 97%);
-  margin: 0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -961,7 +975,7 @@ html {
     .divContacto .contenidoFooter h4 {
       font-family: 'pulp';
       font-size: x-large;
-      margin: 10px 10px 55px;
+      margin: 20px 10px 55px;
       background-color: #6e6e6e9d;
       border-radius: 15px;
       padding: 5px;
@@ -971,16 +985,63 @@ html {
   .divContacto .botonesFooter {
     display: flex;
     flex-wrap: wrap;
-    height: 25vh;
+    max-width: 458px;
     align-items: center;
-    justify-content: space-around; }
+    justify-content: flex-end; }
+    .divContacto .botonesFooter p {
+      font-family: "sunflower";
+      padding: 5px;
+      margin: 5px 20px;
+      background-color: #29292969;
+      border-radius: 10px;
+      font-size: larger;
+      border-style: solid;
+      border-width: 2px;
+      border-color: #0f1a21;
+      color: #FED766;
+      box-shadow: 1px 5px 9px 1px black;
+      transition: .3s; }
+    .divContacto .botonesFooter p:hover {
+      transform: scale(1.1);
+      filter: drop-shadow(1px 6px 4px black);
+      box-shadow: 1px 5px 9px 1px black; }
     .divContacto .botonesFooter img {
-      width: 100px; }
+      width: 80px;
+      background-color: #7b0080;
+      border-radius: 100%;
+      transition: .3s; }
+    .divContacto .botonesFooter img:hover {
+      transform: scale(1.2);
+      filter: drop-shadow(1px 6px 4px black);
+      box-shadow: 1px 5px 9px 1px black; }
   .divContacto .volverInicio {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 15vh; }
+    background-color: rgba(106, 106, 106, 0.56);
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    margin: auto;
+    margin-top: 42px;
+    border-width: 3px;
+    border-color: grey;
+    border-style: outset;
+    border-bottom-style: none;
+    transition: .2s; }
+    .divContacto .volverInicio svg {
+      color: #4e0000;
+      margin: 3px;
+      filter: drop-shadow(1px 6px 4px black); }
+    .divContacto .volverInicio a {
+      font-family: "simply";
+      font-size: medium;
+      color: white;
+      margin: 7px; }
+    .divContacto .volverInicio a:hover {
+      color: #FED766; }
+
+.volverInicio:hover {
+  transform: scaleY(1.2) translateY(-9px); }
 
 /* -- SVG CSS -- */
 .svg-separator {
