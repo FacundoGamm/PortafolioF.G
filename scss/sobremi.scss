@@ -21,7 +21,7 @@
         flex-wrap: wrap;
         justify-content: space-evenly;
         align-items: center;
-        height: 104vh;
+        height: 850px;
         border-bottom-style: solid;
         border-bottom-width: 3px;
         border-color: black;
@@ -39,7 +39,7 @@
             border-radius: 15px;
             box-shadow: -5px 10px 10px rgba(0, 0, 0, 0.373);
             filter: drop-shadow(black -3px 4px 6px);
-            backdrop-filter: blur(3px);
+            backdrop-filter: blur(35px);
             transition: .3s;
         }
         .pCV:hover{
