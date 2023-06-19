@@ -201,7 +201,7 @@ html {
   position: fixed;
   z-index: -1;
   width: 100vw;
-  height: 100vh;
+  height: 1000px;
   top: 0;
   left: 0;
   background: #e1e2fe;
@@ -1162,19 +1162,77 @@ html {
   .presentación .presentacion-imgs .icons {
     width: 300px; }
   .presentación .presentacion-imgs .personaje {
-    width: 300px; } }
+    width: 250px; }
+  .desliza h2 {
+    margin: 85px 40px; } }
 
 @media (max-width: 700px) {
   .presentación .presentacion-imgs .icons {
     width: 240px; }
+  .presentación .presentacion-imgs .corazon {
+    width: 40px; }
   .pCV {
     font-size: 20px !important;
     margin-top: 144px;
     align-self: baseline; }
   .rounded-2 .ulLinks {
-    width: 370px;
+    width: 190px;
     flex-direction: column; }
   .rounded-2 .ulGit {
     flex-direction: column; }
   .rounded-2 .sobreMi {
-    height: 120vh; } }
+    height: 120vh; }
+  .rounded-2 .ulLinks li {
+    padding: 0px; } }
+
+@media (max-width: 650px) {
+  .presentación .presentacion-imgs .icons {
+    width: 200px;
+    filter: none; }
+  .presentación .presentacion-imgs .personaje {
+    width: 200px;
+    filter: none; }
+  .volverInicio {
+    margin-top: 0px !important; }
+  .contenidoFooter h4 {
+    font-size: large !important; } }
+
+@media (max-width: 600px) {
+  .habilidades .gridHab .col {
+    margin: 1px; }
+  .pCV {
+    margin-top: 75px; }
+  .presentación .presentacion-imgs .icons {
+    width: 160px; }
+  .presentación .presentacion-imgs .personaje {
+    width: 180px; }
+  .habilidades .gridHab {
+    margin: 0px; }
+  .fotoCV {
+    height: 215px !important;
+    width: 200px !important; }
+  .presentación .presentacion-parrafos p {
+    font-size: 25px; } }
+
+@media (max-width: 540px) {
+  .rounded-2 .pCV {
+    width: 42vh; }
+  .rounded-2 .ulGit .botonPAS {
+    font-size: 12px;
+    box-shadow: none; }
+  .rounded-2 .ulGit .github {
+    box-shadow: none; } }
+
+@media (max-width: 500px) {
+  .fotoCV {
+    width: 150px !important;
+    height: 190px !important; }
+  .presentación .presentacion-imgs .icons {
+    width: 110px; }
+  .presentación .presentacion-imgs .personaje {
+    width: 130px; }
+  .presentación .presentacion-imgs .corazon {
+    width: 25px; }
+  .rounded-2 .pCV {
+    width: 30vh;
+    font-size: 17px !important; } }
