@@ -1236,3 +1236,37 @@ html {
   .rounded-2 .pCV {
     width: 30vh;
     font-size: 17px !important; } }
+
+@media (max-width: 430px) {
+  .presentación .presentacion-imgs .personaje {
+    width: 110px; }
+  .presentación .presentacion-imgs .icons {
+    width: 80px; }
+  .nav {
+    justify-content: center; }
+  .navscroll .nav-link {
+    font-size: smaller;
+    margin: 5px; }
+  .habilidades {
+    margin-bottom: -20px; }
+  .divContacto {
+    height: 420px; }
+    .divContacto .botonesFooter {
+      justify-content: center; } }
+
+@media (max-width: 350px) {
+  .presentación .presentacion-parrafos h1 {
+    margin: 35px -22px; }
+  .presentación .presentacion-imgs .icons {
+    display: none; }
+  .presentación .presentacion-imgs .personaje {
+    display: none; }
+  .presentación .presentacion-imgs .corazon {
+    display: none; }
+  .rounded-2 .pCV {
+    width: 23vh;
+    font-size: 15px !important; }
+    .rounded-2 .pCV .fotoCV {
+      box-shadow: none; }
+  .habilidades .gridHab .col {
+    margin: -3px; } }
